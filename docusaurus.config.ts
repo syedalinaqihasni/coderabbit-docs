@@ -54,6 +54,23 @@ const config: Config = {
     //  },
     //],
     [
+      "./plugins/blog-plugin",
+      {
+        id: "blog",
+        routeBasePath: "blog",
+        path: "./blog",
+        blogTitle: "CodeRabbit Blog",
+        blogDescription: "Blog",
+        tagsBasePath: "/tags",
+        editLocalizedFiles: false,
+        showReadingTime: true,
+        blogSidebarCount: "ALL",
+        blogSidebarTitle: "All our posts",
+        blogListComponent: "@theme/BlogListPage",
+        blogPostComponent: "@theme/BlogPostPage",
+      },
+    ],
+    [
       "@docusaurus/plugin-client-redirects",
       {
         redirects: [
@@ -97,6 +114,11 @@ const config: Config = {
             from: "/platforms/self-hosted-github",
             to: "/platforms/github-enterprise-server",
           },
+          {
+            from: "/platforms/saas-azure-devops",
+            to: "/platforms/azure-devops",
+          },
+          
         ],
       },
     ],
@@ -147,6 +169,10 @@ const config: Config = {
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
     "/docs/js/code-block-buttons.js",
     "https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js",
+    {
+      src: "/js/segment.js",
+      async: false,
+    },
     {
       src: "https://js.hs-scripts.com/43613284.js",
       type: "text/javascript",

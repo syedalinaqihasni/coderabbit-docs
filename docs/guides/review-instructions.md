@@ -47,6 +47,21 @@ reviews:
 
 ## Abstract Syntax Tree (AST) based instructions {#ast-based}
 
+CodeRabbit offers review instructions based on Abstract Syntax Tree (AST)
+patterns. Under the hood, CodeRabbit uses
+[`ast-grep`](https://ast-grep.github.io) to power this feature. `ast-grep` is
+written in Rust and uses the tree-sitter parser to generate the AST for popular
+languages. `ast-grep` is written and maintained by
+[Herrington Darkholme](https://twitter.com/hd_nvim).
+
+:::tip
+
+`ast-grep` Playground is quite effective in designing and testing AST rules on
+source code snippets. You can access the playground
+[here](https://ast-grep.github.io/playground.html).
+
+:::
+
 :::note
 
 The additional context provided by this feature is only available during the
