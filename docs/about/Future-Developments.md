@@ -1,12 +1,7 @@
 ---
-id: Get Started
-title: Get Started
-sidebar_label: Future Developments
-sidebar_position: 1
-description:
-  CodeRabbit is an AI-powered code reviewer offering real-time, context-aware
-  feedback on pull requests, reducing manual effort in code reviews.
-slug: "/"
+title: CodeRabbit Features
+sidebar_label: Features
+description: Learn how CodeRabbit works in a pull request review.
 ---
 
 # 🚀 Future Developments
