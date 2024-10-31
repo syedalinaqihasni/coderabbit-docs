@@ -1,6 +1,6 @@
 ---
 title: CodeRabbit Features
-sidebar_label: Features
+sidebar_label: Future Development
 description: Learn how CodeRabbit works in a pull request review.
 ---
 
