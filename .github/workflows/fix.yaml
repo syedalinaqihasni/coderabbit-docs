@@ -38,5 +38,4 @@ jobs:
           skip-empty: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - if: steps.actions--create-commit.outputs.commit != null
-        run: git push
+      - run: git push
