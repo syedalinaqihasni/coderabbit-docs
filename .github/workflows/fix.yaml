@@ -1,8 +1,6 @@
 name: Fix
 
 on:
-  push:
-    branches: main
   pull_request:
     branches: main
 
@@ -15,6 +13,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
       - uses: pnpm/action-setup@v4
         with:
           version: latest
@@ -24,18 +24,18 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: pnpm run lint:fix
-      - run: |
-          git add .
-          git status
 
-      - uses: qoomon/actions--create-commit@v1
-        id: actions--create-commit
-        with:
-          message: |
-            🎨 pnpm run lint:fix
+      - id: diff
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            echo 'changes=true' >>"$GITHUB_OUTPUT"
+          fi
 
-            [dependabot skip]
-          skip-empty: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - if: steps.diff.outputs.changes == 'true'
+        name: Commit and push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-      - run: git push
+          git commit --all --message '🎨 pnpm run lint:fix' --message '[dependabot skip]'
+          git push
