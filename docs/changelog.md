@@ -5,6 +5,19 @@ description: The latest updates and changes to CodeRabbit.
 sidebar_position: 9
 ---
 
+## October 31, 2024
+
+### Learnings and Metrics Iteration for CodeRabbit Self-Hosted Customers
+
+We've improved our Learnings and Metrics accessibility for Self-Hosted CodeRabbit customers to provide a more seamless experience. Track learning patterns and insights more easily, with API key generation now available directly from the interface.
+
+**Setup:**
+- Generate an API key in the CodeRabbit UI
+- Enable Learnings and Metrics by:
+ - Configuring your .env file, or
+ - Contacting CodeRabbit support for assistance
+
+
 ## October 30, 2024
 
 ### Microsoft Teams Integration & Bitbucket Support
