@@ -10,7 +10,7 @@ Welcome to the official docs for [**CodeRabbit**](https://coderabbit.ai), the co
 
 [![Website](https://img.shields.io/badge/website-coderabbit.ai-blue)](https://coderabbit.ai)
 [![Twitter Follow](https://img.shields.io/twitter/follow/coderabbitai?style=social)](https://twitter.com/coderabbitai)
-[![Discord](https://img.shields.io/discord/invite-code?color=7289DA&label=Discord&logo=discord&logoColor=green)](https://discord.com/invite/GsXnASn26c)
+[![Discord](https://img.shields.io/discord/1134356397673414807?color=7289DA&label=Discord&logo=discord&logoColor=green)](http://discord.gg/coderabbit)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/coderabbitai/coderabbit-docs/pulls)
 [![Node.js CI](https://github.com/coderabbitai/coderabbit-docs/actions/workflows/node.js.yaml/badge.svg)](https://github.com/coderabbitai/coderabbit-docs/actions/workflows/node.js.yaml)
 
