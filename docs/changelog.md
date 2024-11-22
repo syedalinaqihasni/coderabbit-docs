@@ -7,7 +7,7 @@ sidebar_position: 9
 
 ## November 20, 2024
 
-### Support for On-prem Learnings and Creating follow-up issues with GitLab 
+### Support for On-premises Learning and GitLab Follow-up Issue Creation
 
 Learning is a method for developers to interact with the bot to tune AI specifically for their files, repositories, and codebase for future reviews. We now extend this learning support to our on-premises customers. Additionally, we have enhanced our automated workflow to create follow-up issues based on Merge Request Reviews in GitLab.
 
