@@ -574,7 +574,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable ESLint | ESLint is a static code analysis tool for JavaScript files. | v1.23.1"
+											"description": "Enable ESLint | ESLint is a static code analysis tool for JavaScript files."
 										}
 									},
 									"additionalProperties": false,
