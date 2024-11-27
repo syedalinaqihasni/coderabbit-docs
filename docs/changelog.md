@@ -5,6 +5,12 @@ description: The latest updates and changes to CodeRabbit.
 sidebar_position: 9
 ---
 
+## November 25, 2024
+
+### Performance Improvement 
+
+We have implemented several performance improvements that will enhance the speed of code review and committed to making code review as efficient as possible across all your web development needs
+
 ## November 20, 2024
 
 ### Support for On-premises Learning and GitLab Follow-up Issue Creation
