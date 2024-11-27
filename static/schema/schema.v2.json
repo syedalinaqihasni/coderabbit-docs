@@ -307,7 +307,7 @@
 										}
 									},
 									"additionalProperties": false,
-									"description": "Enable ast-grep | ast-grep is a code analysis tool that helps you to find patterns in your codebase using abstract syntax trees patterns. | v0.28.1"
+									"description": "Enable ast-grep | ast-grep is a code analysis tool that helps you to find patterns in your codebase using abstract syntax trees patterns. | v0.30.1"
 								},
 								"shellcheck": {
 									"type": "object",
@@ -469,7 +469,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable PHPStan | PHPStan requires [config file](https://phpstan.org/config-reference#config-file) in your repository root. Please ensure that this file contains the `paths:` parameter. | v1.12.7"
+											"description": "Enable PHPStan | PHPStan requires [config file](https://phpstan.org/config-reference#config-file) in your repository root. Please ensure that this file contains the `paths:` parameter. | v2.0.2"
 										},
 										"level": {
 											"type": "string",
@@ -531,7 +531,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Gitleaks | Gitleaks is a secret scanner. | Enable Gitleaks integration. | v8.21.1"
+											"description": "Enable Gitleaks | Gitleaks is a secret scanner. | Enable Gitleaks integration. | v8.21.2"
 										}
 									},
 									"additionalProperties": false,
@@ -544,7 +544,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Checkov | Checkov is a static code analysis tool for infrastructure-as-code files. | v3.2.268"
+											"description": "Enable Checkov | Checkov is a static code analysis tool for infrastructure-as-code files. | v3.2.312"
 										}
 									},
 									"additionalProperties": false,
@@ -600,7 +600,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Buf | Buf offers linting for Protobuf files. | v1.45.0"
+											"description": "Enable Buf | Buf offers linting for Protobuf files. | v1.47.2"
 										}
 									},
 									"additionalProperties": false,
@@ -613,7 +613,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Regal | Regal is a linter and language server for Rego. | v0.28.0"
+											"description": "Enable Regal | Regal is a linter and language server for Rego. | v0.29.2"
 										}
 									},
 									"additionalProperties": false,
@@ -626,7 +626,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Actionlint | is a static checker for GitHub Actions workflow files. | v1.7.1"
+											"description": "Enable Actionlint | is a static checker for GitHub Actions workflow files. | v1.7.4"
 										}
 									},
 									"additionalProperties": false,
@@ -656,7 +656,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Cppcheck | Cppcheck is a static code analysis tool for the C and C++ programming languages. | v2.10.2"
+											"description": "Enable Cppcheck | Cppcheck is a static code analysis tool for the C and C++ programming languages. | v2.10-2"
 										}
 									},
 									"additionalProperties": false,
@@ -686,7 +686,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable CircleCi | CircleCi tool is a static checker for CircleCi config files. | v0.1.30995"
+											"description": "Enable CircleCi | CircleCi tool is a static checker for CircleCi config files. | v0.1.31151"
 										}
 									},
 									"additionalProperties": false,
