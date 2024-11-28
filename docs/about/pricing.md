@@ -34,7 +34,7 @@ CodeRabbit Pro is free for all Open Source projects.
 
 ---
 
-## Pro Plan
+## Lite Plan
 
 ### Features
 
@@ -48,6 +48,30 @@ CodeRabbit Pro is free for all Open Source projects.
 
 - **Monthly**: $15 per month per contributing developer.
 - **Annual**: $12 per month, billed annually per contributing developer.
+
+### Usage Limits
+
+These are the hourly usage limits for each developer per repository:
+
+- Number of files reviewed per hour: **150 Files**
+- Number of reviews per hour (includes incremental reviews): **8**
+- Number of conversations per hour: **50**
+
+---
+
+## Pro Plan
+
+### Features
+- Everything in Lite, plus:
+- Linters and SAST tools support.
+- Integrates with Jira & Linear.
+- Product analytics dashboards.
+- Customizable reports
+
+### Pricing
+
+- **Monthly**: $30 per month per contributing developer.
+- **Annual**: $24 per month, billed annually per contributing developer.
 
 ### Usage Limits
 
@@ -76,16 +100,19 @@ These are the hourly usage limits for each developer per repository:
 
 ## Plan Comparison
 
-| Feature                        | Free Plan         | Pro Plan                                              |
-| ------------------------------ | ----------------- | ----------------------------------------------------- |
-| **Free Trial**                 | 14-day free trial | 14-day free trial                                     |
-| **Private Repos**              | Limited access    | Unlimited access                                      |
-| **Public Repos**               | Unlimited access  | Unlimited access                                      |
-| **Pull Request Summarization** | Included          | Included                                              |
-| **Line-by-Line Reviews**       | Public repos only | All repos                                             |
-| **Conversational Bot**         | No                | Yes                                                   |
-| **Hourly Usage Limits**        | Limited           | 150 files/hour, 9 reviews/hour, 50 conversations/hour |
-| **Price**                      | Free forever      | $15 per seat/mo                                       |
+| Feature                        | Free Plan         | Pro Plan                                              | Lite Plan         |
+| ------------------------------ | ----------------- | ----------------------------------------------------- | ----------------- |
+| **Free Trial**                 | 14-day free trial | 14-day free trial                                     | No                |
+| **Private Repos**              | Limited access    | Unlimited access                                      | Limited access    |
+| **Public Repos**               | Unlimited access  | Unlimited access                                      | Unlimited access  |
+| **Pull Request Summarization** | Included          | Included                                              | Included          |
+| **Line-by-Line Reviews**       | Public repos only | All repos                                             | All repos 				 |
+| **Conversational Bot**         | No                | Yes                                                   | Yes               |
+| **Linters and SAST tools**     | No                | No                                                    | Yes               |
+| **Jira & Linear Integration**  | No                | No                                                 	 | Yes               |
+| **ROI dashboards** 						 | No                | No                                                  	 | Yes               |
+| **Customizable reports**       | No                | No                                                    | Yes             	 |
+| **Price**                      | Free forever      | $15 per seat/mo                                       | $30 per seat/mo   |
 
 ---
 
@@ -93,8 +120,9 @@ These are the hourly usage limits for each developer per repository:
 
 ### Pro Plan
 
-- [GitHub/GitLab](docs/tools/tools.md) organization owners can purchase or introduce changes to the
+- GitHub/GitLab/Azure DevOps organization owners can purchase or introduce changes to the
   subscription.
+- You can promote a non-Git platform user as an admin to administer the subscription.
 - You can choose to manually purchase seats and assign them to developers, or
   have them assigned automatically as developers create pull requests.
 - During the trial period, seat assignment is automatic, but the number of seats
