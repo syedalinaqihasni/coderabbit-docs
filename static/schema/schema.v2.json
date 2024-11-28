@@ -151,25 +151,50 @@
 							"default": true,
 							"description": "Set the commit status to 'pending' when the review is in progress and 'success' when it is complete."
 						},
-						"poem": {
-							"type": "boolean",
-							"default": true,
-							"description": "Generate a poem in the walkthrough comment."
-						},
 						"collapse_walkthrough": {
 							"type": "boolean",
 							"default": false,
 							"description": "Generate walkthrough in a markdown collapsible section."
+						},
+						"changed_files_summary": {
+							"type": "boolean",
+							"default": true,
+							"description": "Generate a summary of the changed files in the walkthrough."
 						},
 						"sequence_diagrams": {
 							"type": "boolean",
 							"default": true,
 							"description": "Generate sequence diagrams in the walkthrough."
 						},
-						"changed_files_summary": {
+						"assess_linked_issues": {
 							"type": "boolean",
 							"default": true,
-							"description": "Generate a summary of the changed files in the walkthrough."
+							"description": "Generate an assessment of how well the changes address the linked issues in the walkthrough."
+						},
+						"related_issues": {
+							"type": "boolean",
+							"default": true,
+							"description": "Include possibly related issues in the walkthrough."
+						},
+						"related_prs": {
+							"type": "boolean",
+							"default": true,
+							"description": "Include possibly related pull requests in the walkthrough."
+						},
+						"suggested_labels": {
+							"type": "boolean",
+							"default": true,
+							"description": "Suggest labels based on the changes in the pull request in the walkthrough."
+						},
+						"suggested_reviewers": {
+							"type": "boolean",
+							"default": true,
+							"description": "Suggest reviewers based on the changes in the pull request in the walkthrough."
+						},
+						"poem": {
+							"type": "boolean",
+							"default": true,
+							"description": "Generate a poem in the walkthrough comment."
 						},
 						"labeling_instructions": {
 							"type": "array",
@@ -225,16 +250,6 @@
 							"type": "boolean",
 							"default": true,
 							"description": "Abort the in-progress review if the pull request is closed or merged."
-						},
-						"suggested_reviewers": {
-							"type": "boolean",
-							"default": true,
-							"description": "Suggest reviewers based on the changes in the pull request."
-						},
-						"related_prs": {
-							"type": "boolean",
-							"default": true,
-							"description": "Include possibly related pull requests in the review summary."
 						},
 						"auto_review": {
 							"type": "object",
