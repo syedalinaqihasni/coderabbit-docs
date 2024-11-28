@@ -62,6 +62,7 @@ These are the hourly usage limits for each developer per repository:
 ## Pro Plan
 
 ### Features
+
 - Everything in Lite, plus:
 - Linters and SAST tools support.
 - Integrates with Jira & Linear.
