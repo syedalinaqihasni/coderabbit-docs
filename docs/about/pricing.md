@@ -118,7 +118,7 @@ These are the hourly usage limits for each developer per repository:
 
 ## Subscription Management
 
-### Pro Plan
+### Pro/Lite Plan
 
 - GitHub/GitLab/Azure DevOps organization owners can purchase or introduce changes to the
   subscription.
