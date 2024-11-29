@@ -7,9 +7,9 @@ sidebar_position: 9
 
 ## November 25, 2024
 
-### Performance Improvement
+### Code Review Performance Enhancements with Improved Comment Resolution Logic
 
-We have implemented several performance improvements that will enhance the speed of code review and committed to making code review as efficient as possible across all your web development needs
+We have implemented several performance improvements that will enhance the speed of code review and are committed to making code review as efficient as possible across all your web development needs. We have also further refined the logic to reduce duplicate comments once a comment is resolved.
 
 ## November 20, 2024
 
