@@ -1,4 +1,4 @@
-label: About
-position: 2
+label: Platform
+position: 8
 collapsible: true
-collapsed: true
+collapsed: false
