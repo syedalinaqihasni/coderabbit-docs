@@ -42,7 +42,7 @@ const config: Config = {
 				redirects: [
 					{
 						from: "/get-started",
-						to: "/getting-started/configure-coderabbit",
+						to: "/getting-started/quickstart/",
 					},
 					{
 						from: "/guides/customize-coderabbit",
@@ -79,6 +79,10 @@ const config: Config = {
 					{
 						from: "/platforms/self-hosted-github",
 						to: "/platforms/github-enterprise-server",
+					},
+					{
+						from: "/configure-coderabbit",
+						to: "/getting-started/configure-coderabbit",
 					},
 				],
 			},
