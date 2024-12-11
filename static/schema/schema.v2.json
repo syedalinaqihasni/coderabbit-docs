@@ -332,7 +332,7 @@
 										}
 									},
 									"additionalProperties": false,
-									"description": "Enable ast-grep | ast-grep is a code analysis tool that helps you to find patterns in your codebase using abstract syntax trees patterns. | v0.30.1"
+									"description": "Enable ast-grep | ast-grep is a code analysis tool that helps you to find patterns in your codebase using abstract syntax trees patterns. | v0.31.1"
 								},
 								"shellcheck": {
 									"type": "object",
@@ -353,7 +353,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Ruff | Ruff is a Python linter and code formatter. |  Enable ruff integration. | v0.8.0"
+											"description": "Enable Ruff | Ruff is a Python linter and code formatter. |  Enable ruff integration. | v0.8.2"
 										}
 									},
 									"additionalProperties": false,
@@ -366,7 +366,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Markdownlint | Markdownlint is a static analysis tool for Node.js with a library of rules to enforce standards and consistency for Markdown files. | Enable markdownlint integration. | v0.35.0"
+											"description": "Enable Markdownlint | Markdownlint is a static analysis tool for Node.js with a library of rules to enforce standards and consistency for Markdown files. | Enable markdownlint integration. | v0.37.0"
 										}
 									},
 									"additionalProperties": false,
@@ -494,7 +494,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable PHPStan | PHPStan requires [config file](https://phpstan.org/config-reference#config-file) in your repository root. Please ensure that this file contains the `paths:` parameter. | v2.0.2"
+											"description": "Enable PHPStan | PHPStan requires [config file](https://phpstan.org/config-reference#config-file) in your repository root. Please ensure that this file contains the `paths:` parameter. | v2.0.3"
 										},
 										"level": {
 											"type": "string",
@@ -569,7 +569,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Checkov | Checkov is a static code analysis tool for infrastructure-as-code files. | v3.2.312"
+											"description": "Enable Checkov | Checkov is a static code analysis tool for infrastructure-as-code files. | v3.2.334"
 										}
 									},
 									"additionalProperties": false,
@@ -612,7 +612,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Rubocop | RuboCop is a Ruby static code analyzer (a.k.a. linter ) and code formatter. | v1.68.0"
+											"description": "Enable Rubocop | RuboCop is a Ruby static code analyzer (a.k.a. linter ) and code formatter. | v1.69.1"
 										}
 									},
 									"additionalProperties": false,
@@ -664,7 +664,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Pmd | PMD is an extensible multilanguage static code analyzer. It’s mainly concerned with Java. | v7.7.0"
+											"description": "Enable Pmd | PMD is an extensible multilanguage static code analyzer. It’s mainly concerned with Java. | v7.8.0"
 										},
 										"config_file": {
 											"type": "string",
@@ -694,7 +694,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Semgrep | Semgrep is a static analysis tool designed to scan code for security vulnerabilities and code quality issues. | Enable Semgrep integration. | v1.97.0"
+											"description": "Enable Semgrep | Semgrep is a static analysis tool designed to scan code for security vulnerabilities and code quality issues. | Enable Semgrep integration. | v1.99.0"
 										},
 										"config_file": {
 											"type": "string",
