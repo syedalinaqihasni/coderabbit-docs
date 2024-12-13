@@ -68,7 +68,7 @@ The checked languages are supported:
 - [ ] Php
 - [x] Python
 - [ ] React TypeScript
-- [ ] Ruby
+- [x] Ruby
 - [ ] Rust
 - [ ] Scala
 - [ ] Swift
