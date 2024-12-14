@@ -477,7 +477,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable SwiftLint | SwiftLint is a Swift linter. | Enable SwiftLint integration. | v0.57.1"
+											"description": "Enable SwiftLint | SwiftLint is a Swift linter. | Enable SwiftLint integration. | v0.57.0"
 										},
 										"config_file": {
 											"type": "string",
