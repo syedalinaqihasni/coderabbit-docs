@@ -60,6 +60,11 @@ AZURE_O1_MINI_DEPLOYMENT_NAME=[<o1-mini-deployment-name>]  # Optional
 AZURE_O1_DEPLOYMENT_NAME=[<o1-preview-deployment-name>]  # Optional: Provides best reviews but very expensive
 AZURE_GPT4TURBO_DEPLOYMENT_NAME=[<gpt-4-turbo-deployment-name>]  # Optional: modelVersion: turbo-2024-04-09
 
+# if using AWS Bedrock
+AWS_ACCESS_KEY_ID=<aws-access-key>
+AWS_SECRET_ACCESS_KEY=<aws-secret-access-key>
+AWS_REGION=<aws-region>
+
 # System Configuration
 TEMP_PATH=/cache
 AST_GREP_RULES_PATH=/home/jailuser/ast-grep-rules
