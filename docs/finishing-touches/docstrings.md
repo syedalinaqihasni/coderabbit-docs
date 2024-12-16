@@ -61,7 +61,7 @@ The checked languages are supported:
 - [x] Elixir
 - [x] Go
 - [ ] Haskell
-- [ ] Java
+- [x] Java
 - [x] JavaScript
 - [ ] Kotlin
 - [ ] Lua
