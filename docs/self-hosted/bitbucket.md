@@ -56,7 +56,7 @@ AZURE_OPENAI_ENDPOINT=<azure-openai-endpoint>
 AZURE_OPENAI_API_KEY=<key>
 AZURE_GPT4OMINI_DEPLOYMENT_NAME=<gpt-4o-mini-deployment-name>
 AZURE_GPT4O_DEPLOYMENT_NAME=<gpt-4o-deployment-name>  # modelVersion: 2024-08-06
-AZURE_O1_MINI_DEPLOYMENT_NAME=[<o1-mini-deployment-name>]  # Optional
+AZURE_O1MINI_DEPLOYMENT_NAME=[<o1-mini-deployment-name>]  # Optional
 AZURE_O1_DEPLOYMENT_NAME=[<o1-preview-deployment-name>]  # Optional: Provides best reviews but very expensive
 AZURE_GPT4TURBO_DEPLOYMENT_NAME=[<gpt-4-turbo-deployment-name>]  # Optional: modelVersion: turbo-2024-04-09
 

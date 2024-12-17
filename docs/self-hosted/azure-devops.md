@@ -64,7 +64,7 @@ AZURE_OPENAI_API_KEY=<key>
 AZURE_GPT4OMINI_DEPLOYMENT_NAME=<gpt-4o-mini-deployment-name>
 AZURE_GPT4O_DEPLOYMENT_NAME=<gpt-4o-deployment-name, modelVersion: 2024-08-06>
 ## o1-mini is optional
-AZURE_O1_MINI_DEPLOYMENT_NAME=[<o1-mini-deployment-name>]
+AZURE_O1MINI_DEPLOYMENT_NAME=[<o1-mini-deployment-name>]
 ## o1-preview is optional: it’s very expensive but provides best reviews
 AZURE_O1_DEPLOYMENT_NAME=[<o1-preview-deployment-name>]
 ## gpt-4-turbo is optional: it’s expensive but provides better reviews than gpt-4o
