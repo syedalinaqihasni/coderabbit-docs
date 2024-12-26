@@ -214,6 +214,11 @@
 										"type": "string",
 										"maxLength": 3000,
 										"description": "Instructions for the label. Example: Apply when the PR/MR contains changes to the react components."
+									},
+									"auto_apply": {
+										"type": "boolean",
+										"default": false,
+										"description": "Automatically apply the label to the PR/MR."
 									}
 								},
 								"required": ["label", "instructions"],
