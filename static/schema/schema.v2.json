@@ -191,6 +191,11 @@
 							"default": true,
 							"description": "Suggest labels based on the changes in the pull request in the walkthrough."
 						},
+						"auto_apply_labels": {
+							"type": "boolean",
+							"default": false,
+							"description": "Automatically apply the suggested labels to the PR/MR."
+						},
 						"suggested_reviewers": {
 							"type": "boolean",
 							"default": true,
@@ -214,11 +219,6 @@
 										"type": "string",
 										"maxLength": 3000,
 										"description": "Instructions for the label. Example: Apply when the PR/MR contains changes to the react components."
-									},
-									"auto_apply": {
-										"type": "boolean",
-										"default": false,
-										"description": "Automatically apply the label to the PR/MR."
 									}
 								},
 								"required": ["label", "instructions"],
