@@ -83,6 +83,14 @@ Switch between organizations easily:
 
 ### Customization Options
 
+#### How to Add or Update Your Billing Email
+
+To add or update your billing email, navigate to the Subscription page and
+select Manage Subscription > **Billing Address**. Enter your email address in the
+Email field and click Update to save your changes.
+
+### Usage and Configuration
+
 - **Language Settings**: Configure review language in repository settings
 - **Review Rules**: Customize via [Review Instructions](/guides/review-instructions)
 - **Branch Selection**: Default branch reviews enabled by default (configurable)
@@ -135,6 +143,18 @@ In-trial and open-source plans have lower rate limits than the paid plan. In all
 :::tip Need Help?
 Visit our [Support](/getting-started/support) page for additional assistance or reach out to our team on [Discord](http://discord.gg/coderabbit).
 :::
+
+#### Unable to View Repositories in GitLab
+
+If you cannot view repositories in the CodeRabbit UI, please ensure that you
+are added as a Developer in the primary group for GitLab Cloud or in the first
+level group for Self-Hosted GitLab.
+
+#### Unable to Enable Repositories in GitLab
+
+If you’re having trouble enabling the GitLab Repositories toggle, confirm that
+you have Maintainer access in the primary group for GitLab Cloud or in the first
+level group for Self-Hosted GitLab.
 
 ## Account Management {#account-management}
 
