@@ -71,6 +71,7 @@ AZURE_O1MINI_DEPLOYMENT_NAME=[<o1-mini-deployment-name>]
 AZURE_O1_DEPLOYMENT_NAME=[<o1-deployment-name>]
 
 # if using AWS Bedrock
+LLM_PROVIDER=bedrock-anthropic
 AWS_ACCESS_KEY_ID=<aws-access-key>
 AWS_SECRET_ACCESS_KEY=<aws-secret-access-key>
 AWS_REGION=<aws-region>
@@ -82,9 +83,6 @@ ANTHROPIC_API_KEYS=<anthropic-key>
 ANTHROPIC_BASE_URL=[<anthropic-base-url>]
 
 TEMP_PATH=/cache
-
-AST_GREP_RULES_PATH=/home/jailuser/ast-grep-rules
-AST_GREP_ESSENTIALS=ast-grep-essentials
 
 SELF_HOSTED=github
 
