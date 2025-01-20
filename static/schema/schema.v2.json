@@ -211,27 +211,6 @@
 							"default": true,
 							"description": "Generate a poem in the walkthrough comment."
 						},
-						"finishing_touches": {
-							"type": "object",
-							"properties": {
-								"docstrings": {
-									"type": "object",
-									"properties": {
-										"enabled": {
-											"type": "boolean",
-											"default": true,
-											"description": "Allow CodeRabbit to generate docstrings for PRs/MRs."
-										}
-									},
-									"additionalProperties": false,
-									"default": {},
-									"description": "Docstrings | Options for generating Docstrings for your PRs/MRs."
-								}
-							},
-							"additionalProperties": false,
-							"default": {},
-							"description": "Finishing Touches | Options for adding finishing touches to your PRs/MRs, like Docstrings."
-						},
 						"labeling_instructions": {
 							"type": "array",
 							"items": {
@@ -328,6 +307,26 @@
 									},
 									"default": [],
 									"description": "Base branches (other than the default branch) to review. Accepts regex patterns."
+								}
+							},
+							"additionalProperties": false,
+							"default": {}
+						},
+						"finishing_touches": {
+							"type": "object",
+							"properties": {
+								"docstrings": {
+									"type": "object",
+									"properties": {
+										"enabled": {
+											"type": "boolean",
+											"default": true,
+											"description": "Docstrings | Allow CodeRabbit to generate docstrings for PRs/MRs."
+										}
+									},
+									"additionalProperties": false,
+									"default": {},
+									"description": "Docstrings | Options for generating Docstrings for your PRs/MRs."
 								}
 							},
 							"additionalProperties": false,
@@ -771,6 +770,39 @@
 							"type": "boolean",
 							"default": true,
 							"description": "Enable the bot to reply automatically without requiring the user to tag it."
+						},
+						"integrations": {
+							"type": "object",
+							"properties": {
+								"jira": {
+									"type": "object",
+									"properties": {
+										"enabled": {
+											"type": "string",
+											"enum": ["auto", "true", "false"],
+											"default": "auto",
+											"description": "Jira | Enable the Jira integration for opening issues, etc. 'auto' disables the integration for public repositories."
+										}
+									},
+									"additionalProperties": false,
+									"default": {}
+								},
+								"linear": {
+									"type": "object",
+									"properties": {
+										"enabled": {
+											"type": "string",
+											"enum": ["auto", "true", "false"],
+											"default": "auto",
+											"description": "Linear | Enable the Linear integration for opening issues, etc. 'auto' disables the integration for public repositories."
+										}
+									},
+									"additionalProperties": false,
+									"default": {}
+								}
+							},
+							"additionalProperties": false,
+							"default": {}
 						}
 					},
 					"additionalProperties": false,
@@ -813,6 +845,12 @@
 						"jira": {
 							"type": "object",
 							"properties": {
+								"enabled": {
+									"type": "string",
+									"enum": ["auto", "true", "false"],
+									"default": "auto",
+									"description": "Jira | Enable the Jira knowledge base integration. 'auto' disables the integration for public repositories."
+								},
 								"project_keys": {
 									"type": "array",
 									"items": {
@@ -828,6 +866,12 @@
 						"linear": {
 							"type": "object",
 							"properties": {
+								"enabled": {
+									"type": "string",
+									"enum": ["auto", "true", "false"],
+									"default": "auto",
+									"description": "Linear | Enable the Linear knowledge base integration. 'auto' disables the integration for public repositories."
+								},
 								"team_keys": {
 									"type": "array",
 									"items": {
