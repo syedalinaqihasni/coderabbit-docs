@@ -114,11 +114,6 @@ LINEAR_PAT=[<linear-personal-access-token>]
 OAUTH2_ENDPOINT=[<endpoint>]
 OAUTH2_CLIENT_ID=[<client-id>]
 OAUTH2_CLIENT_SECRET=[<client-secret>]
-
-# Set to true to use the on-prem knowledge base features. This will take precedence over the ENABLE_LEARNINGS flag above.
-SELF_HOSTED_KNOWLEDGE_BASE=[true]
-# The branch which CodeRabbit will store the knowledge base json files in.
-SELF_HOSTED_KNOWLEDGE_BASE_BRANCH=[coderabbitai/data]
 ```
 
 :::note
