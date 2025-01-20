@@ -211,6 +211,27 @@
 							"default": true,
 							"description": "Generate a poem in the walkthrough comment."
 						},
+						"finishing_touches": {
+							"type": "object",
+							"properties": {
+								"docstrings": {
+									"type": "object",
+									"properties": {
+										"enabled": {
+											"type": "boolean",
+											"default": true,
+											"description": "Allow CodeRabbit to generate docstrings for PRs/MRs."
+										}
+									},
+									"additionalProperties": false,
+									"default": {},
+									"description": "Docstrings | Options for generating Docstrings for your PRs/MRs."
+								}
+							},
+							"additionalProperties": false,
+							"default": {},
+							"description": "Finishing Touches | Options for adding finishing touches to your PRs/MRs, like Docstrings."
+						},
 						"labeling_instructions": {
 							"type": "array",
 							"items": {
