@@ -777,9 +777,9 @@
 								"jira": {
 									"type": "object",
 									"properties": {
-										"enabled": {
+										"usage": {
 											"type": "string",
-											"enum": ["auto", "true", "false"],
+											"enum": ["auto", "enabled", "disabled"],
 											"default": "auto",
 											"description": "Jira | Enable the Jira integration for opening issues, etc. 'auto' disables the integration for public repositories."
 										}
@@ -790,9 +790,9 @@
 								"linear": {
 									"type": "object",
 									"properties": {
-										"enabled": {
+										"usage": {
 											"type": "string",
-											"enum": ["auto", "true", "false"],
+											"enum": ["auto", "enabled", "disabled"],
 											"default": "auto",
 											"description": "Linear | Enable the Linear integration for opening issues, etc. 'auto' disables the integration for public repositories."
 										}
@@ -845,9 +845,9 @@
 						"jira": {
 							"type": "object",
 							"properties": {
-								"enabled": {
+								"usage": {
 									"type": "string",
-									"enum": ["auto", "true", "false"],
+									"enum": ["auto", "enabled", "disabled"],
 									"default": "auto",
 									"description": "Jira | Enable the Jira knowledge base integration. 'auto' disables the integration for public repositories."
 								},
@@ -866,9 +866,9 @@
 						"linear": {
 							"type": "object",
 							"properties": {
-								"enabled": {
+								"usage": {
 									"type": "string",
-									"enum": ["auto", "true", "false"],
+									"enum": ["auto", "enabled", "disabled"],
 									"default": "auto",
 									"description": "Linear | Enable the Linear knowledge base integration. 'auto' disables the integration for public repositories."
 								},
