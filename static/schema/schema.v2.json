@@ -136,6 +136,11 @@
 							"default": "@coderabbitai summary",
 							"description": "Placeholder in the PR/MR description that gets replaced with the high level summary."
 						},
+						"high_level_summary_in_walkthrough": {
+							"type": "boolean",
+							"default": false,
+							"description": "Include the high level summary in the walkthrough comment."
+						},
 						"auto_title_placeholder": {
 							"type": "string",
 							"default": "@coderabbitai",
