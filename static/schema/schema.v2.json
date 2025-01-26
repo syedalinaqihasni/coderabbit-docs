@@ -406,12 +406,12 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Markdownlint | Markdownlint is a static analysis tool for Node.js with a library of rules to enforce standards and consistency for Markdown files. | Enable markdownlint integration. | v0.37.0"
+											"description": "Enable markdownlint | markdownlint-cli2 is a static analysis tool to enforce standards and consistency for Markdown files. | Enable markdownlint integration. | v0.17.2"
 										}
 									},
 									"additionalProperties": false,
 									"default": {},
-									"description": "Markdownlint is a static analysis tool to enforce standards and consistency for Markdown files."
+									"description": "markdownlint-cli2 is a static analysis tool to enforce standards and consistency for Markdown files."
 								},
 								"github-checks": {
 									"type": "object",
