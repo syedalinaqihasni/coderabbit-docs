@@ -21,7 +21,7 @@ of precedence:
 2. Configure using CodeRabbit UI for each repository
 3. Configure using CodeRabbit UI for the organization
 
-In this guide, we will cover the configuration using a YAML file. For reference, you can find curated examples of YAML configurations in our [awesome-coderabbit](https://github.com/coderabbitai/awesome-coderabbit) repository.
+In this guide, we will cover the configuration using a YAML file. For reference, you can find curated examples of YAML configurations in our [`awesome-coderabbit`](https://github.com/coderabbitai/awesome-coderabbit) repository.
 
 ## Configure CodeRabbit using a YAML File
 
@@ -63,3 +63,20 @@ Refer:
 Please note that code reviews commence with new pull requests or incremental
 commits to existing pull requests once the CodeRabbit app is installed. Should
 you have any questions or require assistance, our support team is here to help.
+
+## Shared configuration
+
+If you are self-hosting CodeRabbit in an air-gapped environment, you can use the
+shared configuration feature to share the configuration across multiple repositories.
+
+To use shared configuration, you need to:
+
+1. Create a `.coderabbit.yaml` file and host it in a location that is accessible
+   to from the CodeRabbit instance.
+2. Create a `.coderabbit.yaml` file in the root of your repository with the
+   following content:
+
+```yaml
+remote_config:
+  url: "https://your-config-location/.coderabbit.yaml"
+```
