@@ -126,8 +126,8 @@ The following limits enforced _per developer_:
 
 | Feature          | Free Plan                                  | Trial Plan                    | OSS Plan                      | Pro/Lite Plan                 |
 | ---------------- | ------------------------------------------ | ----------------------------- | ----------------------------- | ----------------------------- |
-| Files per hour   | 200/hour                                   | 150/hour                      | 150/hour                      | 300/hour                      |
-| Files per PR     | 125                                        | 75                            | 75                            | 200                           |
+| Files per hour   | 200/hour                                   | 200/hour                      | 200/hour                      | 400/hour                      |
+| Files per PR     | 100                                        | 100                           | 100                           | 200                           |
 | Reviews per hour | 3 back-to-back, then 3/hour (Summary only) | 3 back-to-back, then 3/hour   | 2 back-to-back, then 2/hour   | 4 back-to-back, then 4/hour   |
 | Chat             | N/A                                        | 25 back-to-back, then 50/hour | 10 back-to-back, then 25/hour | 25 back-to-back, then 50/hour |
 
