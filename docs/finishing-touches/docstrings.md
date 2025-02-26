@@ -1,6 +1,6 @@
 ---
 title: Docstrings generation with CodeRabbit
-sidebar_label: Docstrings (Beta)
+sidebar_label: Docstrings
 description: Automated docstrings pull requests with CodeRabbit
 ---
 
@@ -13,12 +13,6 @@ import ProPlanNotice from '@site/src/components/ProPlanNotice.mdx';
 # Docstrings
 
 Docstrings generation is part of the [finishing touches](/future-development#finishing-touches).
-
-:::info
-
-This feature is in [beta](/early-access#beta).
-
-:::
 
 ## Usage
 
@@ -37,27 +31,28 @@ Here's an example of what a pull request may look like:
 
 CodeRabbit cannot perform further modifications to opened pull requests. From there, it's your turn to checkout the branch and improve it to satisfaction. We believe that this workflow provides a significant headstart to documenting code.
 
-We are testing this workflow internally to adjust the prompts, add more supported software forges, add more supported languages and craft an excellent user experience. However, you can use this preview and enjoy a sneak peek at the future of CodeRabbit. Additionally, you can provide feedback about this feature on [Discord](https://discord.com/channels/1134356397673414807/1317286905557287022).
+This feature has been rigorously tested and is now available for all Pro plan users. Additionally, you can provide feedback about this feature on [Discord](https://discord.com/channels/1134356397673414807/1317286905557287022).
 
 ## Supported software forges
 
-The checked software forges are supported:
+These software forges are supported:
 
-- [ ] Azure DevOps
-- [ ] Bitbucket
+- [x] Azure DevOps
+- [ ] Bitbucket Cloud
+- [ ] Bitbucket Data Center
 - [x] GitHub
-- [ ] GitLab
+- [x] GitLab
 
-The presence of an unsupported software forge in this list does not constitute a commitment to support it in the future. Remember that the docstrings feature is in [beta](/early-access#beta).
+While Bitbucket is not officially supported, docstrings can still be generated. However, they will be posted in a comment under the pull request. Full support for Bitbucket is planned.
 
 ## Supported languages
 
-The checked languages are supported:
+These languages are supported:
 
 - [x] Bash
 - [x] C
-- [x] C++
 - [x] C#
+- [x] C++
 - [x] Elixir
 - [x] Go
 - [ ] Haskell
@@ -74,8 +69,4 @@ The checked languages are supported:
 - [x] Swift
 - [x] TypeScript
 
-The presence of an unsupported language in this list does not constitute a commitment to support it in the future. Remember that the docstrings feature is in [beta](/early-access#beta).
-
-:::note
-In the case of JavaScript and TypeScript and the React versions of both, there are tons of ways to declare functions. At the moment, we only support the keyword `function` at the top level.
-:::
+CodeRabbit uses `ast-grep` to parse the code. If you want a new language to be supported, please look into [Add New Language to ast-grep](https://ast-grep.github.io/contributing/add-lang.html#add-new-language-to-ast-grep) first.
