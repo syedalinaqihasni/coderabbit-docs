@@ -216,11 +216,6 @@
 							"default": true,
 							"description": "Suggest reviewers based on the changes in the pull request in the walkthrough."
 						},
-						"auto_assign_reviewers": {
-							"type": "boolean",
-							"default": false,
-							"description": "Automatically assign suggested reviewers to the pull request"
-						},
 						"poem": {
 							"type": "boolean",
 							"default": true,
