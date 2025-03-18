@@ -216,11 +216,6 @@
 							"default": true,
 							"description": "Suggest reviewers based on the changes in the pull request in the walkthrough."
 						},
-						"auto_assign_reviewers": {
-							"type": "boolean",
-							"default": false,
-							"description": "Automatically assign suggested reviewers to the pull request"
-						},
 						"poem": {
 							"type": "boolean",
 							"default": true,
@@ -576,7 +571,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable golangci-lint | golangci-lint is a fast linters runner for Go. | Enable golangci-lint integration. | v1.62.2"
+											"description": "Enable golangci-lint | golangci-lint is a fast linters runner for Go. | Enable golangci-lint integration. | v1.64.8"
 										},
 										"config_file": {
 											"type": "string",
