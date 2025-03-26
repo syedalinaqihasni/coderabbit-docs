@@ -767,6 +767,19 @@
 									"additionalProperties": false,
 									"default": {},
 									"description": "CircleCI tool is a static checker for CircleCI config files."
+								},
+								"sqlfluff": {
+									"type": "object",
+									"properties": {
+										"enabled": {
+											"type": "boolean",
+											"default": true,
+											"description": "Enable SQLFluff | SQLFluff is an open source, dialect-flexible and configurable SQL linter. | v3.3.0"
+										}
+									},
+									"additionalProperties": false,
+									"default": {},
+									"description": "SQLFluff is an open source, dialect-flexible and configurable SQL linter."
 								}
 							},
 							"additionalProperties": false,
