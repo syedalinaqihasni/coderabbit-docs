@@ -358,6 +358,7 @@
 											"items": {
 												"type": "string"
 											},
+											"default": [],
 											"description": "List of rules directories."
 										},
 										"util_dirs": {
@@ -365,6 +366,7 @@
 											"items": {
 												"type": "string"
 											},
+											"default": [],
 											"description": "List of utils directories."
 										},
 										"essential_rules": {
@@ -382,6 +384,7 @@
 										}
 									},
 									"additionalProperties": false,
+									"default": {},
 									"description": "Enable ast-grep | ast-grep is a code analysis tool that helps you to find patterns in your codebase using abstract syntax trees patterns. | v0.31.1"
 								},
 								"shellcheck": {
@@ -456,6 +459,7 @@
 											"items": {
 												"type": "string"
 											},
+											"default": [],
 											"description": "IDs of rules to be enabled. The rule won't run unless 'level' is set to a level that activates the rule."
 										},
 										"disabled_rules": {
@@ -463,6 +467,7 @@
 											"items": {
 												"type": "string"
 											},
+											"default": [],
 											"description": "IDs of rules to be disabled. Note: EN_UNPAIRED_BRACKETS, and EN_UNPAIRED_QUOTES are always disabled."
 										},
 										"enabled_categories": {
@@ -470,6 +475,7 @@
 											"items": {
 												"type": "string"
 											},
+											"default": [],
 											"description": "IDs of categories to be enabled."
 										},
 										"disabled_categories": {
@@ -477,6 +483,7 @@
 											"items": {
 												"type": "string"
 											},
+											"default": [],
 											"description": "IDs of categories to be disabled. Note: TYPOS, TYPOGRAPHY, and CASING are always disabled."
 										},
 										"enabled_only": {
