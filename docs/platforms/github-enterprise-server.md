@@ -75,8 +75,7 @@ steps below to
 [create a GitHub App](https://docs.github.com/en/enterprise-server@latest/apps/creating-github-apps/registering-a-github-app/registering-a-github-app):
 
 1. Sign in to your GitHub Enterprise account.
-2. In the upper-right corner of any page, click your profile photo, then click
-   **Settings**.
+2. In the upper-right corner of any page, click your profile photo, then click **Settings**.
 3. In the left sidebar, click **Developer settings** > **GitHub Apps**
 4. Click **New GitHub App**.
 5. Set the following fields:
@@ -90,8 +89,10 @@ steps below to
    - **Webhook secret**: Use a secure string and keep it handy.
    - **Permissions**:
      - **Repository permissions**:
+       - **Actions**: Read-only
        - **Checks**: Read-only
        - **Contents**: Read and write
+       - **Commit statuses**: Read and write
        - **Discussions**: Read-only
        - **Issues**: Read and write
        - **Metadata**: Read-only
