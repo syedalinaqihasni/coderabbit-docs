@@ -787,6 +787,19 @@
 									"additionalProperties": false,
 									"default": {},
 									"description": "SQLFluff is an open source, dialect-flexible and configurable SQL linter."
+								},
+								"prismaLint": {
+									"type": "object",
+									"properties": {
+										"enabled": {
+											"type": "boolean",
+											"default": true,
+											"description": "Enable Prisma Schema linting | Prisma Schema linting helps maintain consistent and error-free schema files | v0.10.0"
+										}
+									},
+									"additionalProperties": false,
+									"default": {},
+									"description": "Configuration for Prisma Schema linting to ensure schema file quality"
 								}
 							},
 							"additionalProperties": false,
