@@ -252,17 +252,38 @@ Within each group, sort by:
 - Impact level
 ```
 
-### Time-Based Analysis
+### Optional Data Sources
 
-Add temporal analysis to your reports:
+You can also include optional data sources in your custom reports. By default, CodeRabbit will not include the following data sources. In a custom report you will see the option to include these data sources by clicking the `Select Optional Data Sources` button. This adds special XML tags to your prompt that allow you to include this data in your report.
 
-```text
-Provide:
-- Week-over-week comparison
-- Trend analysis for the past month
-- Velocity metrics
-- Time to merge statistics
-```
+#### Bot Comments
+
+Bot comments are comments made by bots and Coderabbit AI on a PR. To enable bot comments you must include the tag `<include_bot_comments>` in your prompt.
+
+These are very similar in structure to regular user comments but with a few key differences:
+
+- `<bot_comments>`: array of comment objects - Contains all the comments made on the PR.
+- `<bot_comment>`: object - Each individual comment is wrapped in this tag and is an object with the following properties:
+  - `<bot_name>`: string - The username of the comment author.
+  - `<bot_comment_created_at>`: datetime - The date and time the comment was created.
+  - `<bot_comment_updated_at>`: datetime - The date and time the comment was last updated.
+  - `<bot_comment_body>`: markdown - The content of the comment.
+
+#### Issues and Tickets
+
+Issues and tickets brings in conversations, descriptions, and comments from Jira and Linear as part of your report if the ticket is linked in your PR description. To enable issues and tickets you must include the tag `<include_issues_and_tickets>` in your prompt.
+
+- `<issues_and_tickets>`: array of issue objects - Contains all the linked issues and tickets.
+- `<issue>`: object - Each individual issue is wrapped in this tag and is an object with the following properties:
+  - `<issue_title>`: string - The title or thread ID of the issue.
+  - `<issue_url>`: string - The URL to the issue.
+  - `<issue_id>`: string - The unique identifier of the issue.
+  - `<issue_author>`: string - The username of who created the issue.
+  - `<issue_created_at>`: datetime - The date and time the issue was created.
+  - `<issue_updated_at>`: datetime - The date and time the issue was last updated.
+  - `<issue_body>`: markdown - The content/description of the issue. This contains the following sections:
+    - `<issue_description>`: markdown - The description of the issue.
+    - `<issue_comments>`: array of comment objects - Contains all the comments made on the issue.
 
 ## Best Practices
 
