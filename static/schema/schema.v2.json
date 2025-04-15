@@ -91,7 +91,9 @@
 						"fa-IR",
 						"sv-SE",
 						"de-LU",
-						"fr-FR"
+						"fr-FR",
+						"bg-BG",
+						"bg"
 					],
 					"default": "en-US",
 					"description": "Set the language for reviews by using the corresponding ISO language code."
@@ -1085,7 +1087,9 @@
 										"fa-IR",
 										"sv-SE",
 										"de-LU",
-										"fr-FR"
+										"fr-FR",
+										"bg-BG",
+										"bg"
 									],
 									"default": "en-US",
 									"description": "Set the language for docstrings by using the corresponding ISO language code."
