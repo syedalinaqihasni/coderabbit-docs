@@ -82,8 +82,6 @@
 						"zh",
 						"crh-UA",
 						"crh",
-						"cs-CZ",
-						"cs",
 						"nb",
 						"no",
 						"nl-NL",
@@ -93,9 +91,7 @@
 						"fa-IR",
 						"sv-SE",
 						"de-LU",
-						"fr-FR",
-						"bg-BG",
-						"bg"
+						"fr-FR"
 					],
 					"default": "en-US",
 					"description": "Set the language for reviews by using the corresponding ISO language code."
@@ -1080,8 +1076,6 @@
 										"zh",
 										"crh-UA",
 										"crh",
-										"cs-CZ",
-										"cs",
 										"nb",
 										"no",
 										"nl-NL",
@@ -1091,9 +1085,7 @@
 										"fa-IR",
 										"sv-SE",
 										"de-LU",
-										"fr-FR",
-										"bg-BG",
-										"bg"
+										"fr-FR"
 									],
 									"default": "en-US",
 									"description": "Set the language for docstrings by using the corresponding ISO language code."
