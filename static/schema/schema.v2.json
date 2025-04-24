@@ -285,6 +285,11 @@
 							"default": true,
 							"description": "Abort the in-progress review if the pull request is closed or merged."
 						},
+						"disable_cache": {
+							"type": "boolean",
+							"default": false,
+							"description": "Disable caching of code and dependencies. This will force CodeRabbit to download the code and dependencies fresh from the repository each time."
+						},
 						"auto_review": {
 							"type": "object",
 							"properties": {
