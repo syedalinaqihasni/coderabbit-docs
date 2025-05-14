@@ -630,7 +630,7 @@
 										"enabled": {
 											"type": "boolean",
 											"default": true,
-											"description": "Enable Checkov | Checkov is a static code analysis tool for infrastructure-as-code files. | v3.2.420"
+											"description": "Enable Checkov | Checkov is a static code analysis tool for infrastructure-as-code files. | v3.2.334"
 										}
 									},
 									"additionalProperties": false,
