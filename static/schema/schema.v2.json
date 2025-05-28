@@ -792,19 +792,6 @@
 									"default": {},
 									"description": "CircleCI tool is a static checker for CircleCI config files."
 								},
-								"clippy": {
-									"type": "object",
-									"properties": {
-										"enabled": {
-											"type": "boolean",
-											"default": true,
-											"description": "Enable Clippy | Clippy is a collection of lints to catch common mistakes and improve your Rust code. | Enable Clippy integration."
-										}
-									},
-									"additionalProperties": false,
-									"default": {},
-									"description": "Clippy is a collection of lints to catch common mistakes and improve your Rust code."
-								},
 								"sqlfluff": {
 									"type": "object",
 									"properties": {
