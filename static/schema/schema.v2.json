@@ -925,19 +925,6 @@
 									"additionalProperties": false,
 									"description": "HTMLHint is a static code analysis tool for HTML files.",
 									"default": {}
-								},
-								"checkmake": {
-									"type": "object",
-									"properties": {
-										"enabled": {
-											"type": "boolean",
-											"default": true,
-											"description": "Enable checkmake | checkmake is a linter for Makefiles. | v0.2.2"
-										}
-									},
-									"additionalProperties": false,
-									"default": {},
-									"description": "checkmake is a linter for Makefiles."
 								}
 							},
 							"additionalProperties": false,
