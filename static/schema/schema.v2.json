@@ -95,17 +95,7 @@
 						"de-LU",
 						"fr-FR",
 						"bg-BG",
-						"bg",
-						"he-IL",
-						"he",
-						"hi-IN",
-						"hi",
-						"vi-VN",
-						"vi",
-						"th-TH",
-						"th",
-						"bn-BD",
-						"bn"
+						"bg"
 					],
 					"default": "en-US",
 					"description": "Set the language for reviews by using the corresponding ISO language code."
@@ -1206,17 +1196,7 @@
 										"de-LU",
 										"fr-FR",
 										"bg-BG",
-										"bg",
-										"he-IL",
-										"he",
-										"hi-IN",
-										"hi",
-										"vi-VN",
-										"vi",
-										"th-TH",
-										"th",
-										"bn-BD",
-										"bn"
+										"bg"
 									],
 									"default": "en-US",
 									"description": "Set the language for docstrings by using the corresponding ISO language code."
