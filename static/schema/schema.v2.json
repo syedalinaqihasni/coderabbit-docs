@@ -1029,7 +1029,7 @@
 							"properties": {
 								"enabled": {
 									"type": "boolean",
-									"default": false,
+									"default": true,
 									"description": "Enabled | Enable CodeRabbit to enforce your organisation's coding standards during reviews."
 								},
 								"filePatterns": {
