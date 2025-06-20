@@ -1024,6 +1024,27 @@
 							"additionalProperties": false,
 							"default": {}
 						},
+						"code_guidelines": {
+							"type": "object",
+							"properties": {
+								"enabled": {
+									"type": "boolean",
+									"default": false,
+									"description": "Enabled | Enable CodeRabbit to enforce your organisation's coding standards during reviews."
+								},
+								"filePatterns": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									},
+									"default": [],
+									"description": "File Patterns | Specify files for your coding guideline documents in this section. CodeRabbit will scan these files to understand your team's standards and apply them during code reviews. Multiple files supported. File names are case-sensitive. Common files like: (**/.cursorrules, .github/copilot-instructions.md, **/CLAUDE.md, **/.cursor/rules/*, **/.windsurfrules, **/.clinerules/*, **/.rules/*) are included by default."
+								}
+							},
+							"additionalProperties": false,
+							"default": {},
+							"description": "CodeRabbit will analyse and learn from your organisation's code guidelines, which you can mention in the file patterns section. These guidelines will then be used to conduct thorough code reviews."
+						},
 						"learnings": {
 							"type": "object",
 							"properties": {
