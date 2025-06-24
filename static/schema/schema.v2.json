@@ -690,23 +690,6 @@
 									"default": {},
 									"description": "ESLint is a static code analysis tool for JavaScript files."
 								},
-								"flake8": {
-									"type": "object",
-									"properties": {
-										"enabled": {
-											"type": "boolean",
-											"default": true,
-											"description": "Enable Flake8 | Flake8 is a Python linter that wraps PyFlakes, pycodestyle and Ned Batchelder's McCabe script. | v7.2.0"
-										},
-										"config_file": {
-											"type": "string",
-											"description": "Optional path to the Flake8 configuration file relative to the repository. This is useful when the configuration file is named differently than the default '.flake8' or 'setup.cfg'."
-										}
-									},
-									"additionalProperties": false,
-									"default": {},
-									"description": "Flake8 is a Python linter that wraps PyFlakes, pycodestyle and Ned Batchelder's McCabe script."
-								},
 								"rubocop": {
 									"type": "object",
 									"properties": {
