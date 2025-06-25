@@ -79,7 +79,11 @@ const sidebars: SidebarsConfig = {
 			collapsed: true,
 			label: "Configure CodeRabbit",
 			items: [
+				"guides/configuration-overview",
+				"guides/organization-settings",
+				"guides/repository-settings",
 				"getting-started/configure-coderabbit",
+				"guides/initial-configuration",
 				"integrations/knowledge-base",
 				"guides/review-instructions",
 				"tools/tools",
@@ -163,6 +167,8 @@ const sidebars: SidebarsConfig = {
 					href: "https://api.coderabbit.ai/api/swagger/",
 				},
 				"reference/review-commands",
+				"reference/configuration",
+				"reference/yaml-template",
 				{
 					type: "category",
 					label: "Supported tools",
