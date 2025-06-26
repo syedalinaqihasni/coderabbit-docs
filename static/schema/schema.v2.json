@@ -710,10 +710,6 @@
 											"type": "boolean",
 											"default": true,
 											"description": "Enable Flake8 | Flake8 is a Python linter that wraps PyFlakes, pycodestyle and Ned Batchelder's McCabe script. | v7.2.0"
-										},
-										"config_file": {
-											"type": "string",
-											"description": "Optional path to the Flake8 configuration file relative to the repository. This is useful when the configuration file is named differently than the default '.flake8' or 'setup.cfg'."
 										}
 									},
 									"additionalProperties": false,
@@ -956,10 +952,6 @@
 											"type": "boolean",
 											"default": true,
 											"description": "Enable HTMLHint | HTMLHint is a static code analysis tool for HTML files. | Enable HTMLHint integration. | v1.5.0"
-										},
-										"config_file": {
-											"type": "string",
-											"description": "Optional path to the HTMLHint configuration file relative to the repository. This is useful when the configuration file is named differently than the default '.htmlhintrc'."
 										}
 									},
 									"additionalProperties": false,
