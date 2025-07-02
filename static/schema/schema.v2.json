@@ -604,6 +604,32 @@
 									"default": {},
 									"description": "PHPStan is a tool to analyze PHP code."
 								},
+								"phpmd": {
+									"type": "object",
+									"properties": {
+										"enabled": {
+											"type": "boolean",
+											"default": true,
+											"description": "Enable PHPMD | PHPMD is a tool to find potential problems in PHP code. | v2.15.0"
+										}
+									},
+									"additionalProperties": false,
+									"default": {},
+									"description": "PHPMD is a tool to find potential problems in PHP code."
+								},
+								"phpcs": {
+									"type": "object",
+									"properties": {
+										"enabled": {
+											"type": "boolean",
+											"default": true,
+											"description": "Enable PHP CodeSniffer | PHP CodeSniffer is a PHP linter and coding standard checker. | v3.7.2"
+										}
+									},
+									"additionalProperties": false,
+									"default": {},
+									"description": "PHP CodeSniffer is a PHP linter and coding standard checker."
+								},
 								"golangci-lint": {
 									"type": "object",
 									"properties": {
@@ -689,6 +715,19 @@
 									"additionalProperties": false,
 									"default": {},
 									"description": "ESLint is a static code analysis tool for JavaScript files."
+								},
+								"flake8": {
+									"type": "object",
+									"properties": {
+										"enabled": {
+											"type": "boolean",
+											"default": true,
+											"description": "Enable Flake8 | Flake8 is a Python linter that wraps PyFlakes, pycodestyle and Ned Batchelder's McCabe script. | v7.2.0"
+										}
+									},
+									"additionalProperties": false,
+									"default": {},
+									"description": "Flake8 is a Python linter that wraps PyFlakes, pycodestyle and Ned Batchelder's McCabe script."
 								},
 								"rubocop": {
 									"type": "object",
@@ -926,10 +965,6 @@
 											"type": "boolean",
 											"default": true,
 											"description": "Enable HTMLHint | HTMLHint is a static code analysis tool for HTML files. | Enable HTMLHint integration. | v1.5.0"
-										},
-										"config_file": {
-											"type": "string",
-											"description": "Optional path to the HTMLHint configuration file relative to the repository. This is useful when the configuration file is named differently than the default '.htmlhintrc'."
 										}
 									},
 									"additionalProperties": false,
@@ -1038,7 +1073,7 @@
 										"type": "string"
 									},
 									"default": [],
-									"description": "File Patterns | Specify files for your coding guideline documents in this section. CodeRabbit will scan these files to understand your team's standards and apply them during code reviews. Multiple files supported. File names are case-sensitive. Common files like: (**/.cursorrules, .github/copilot-instructions.md, **/CLAUDE.md, **/.cursor/rules/*, **/.windsurfrules, **/.clinerules/*, **/.rules/*) are included by default."
+									"description": "File Patterns | Specify files for your coding guideline documents in this section. CodeRabbit will scan these files to understand your team's standards and apply them during code reviews. Multiple files supported. File names are case-sensitive. Common files like: (**/.cursorrules, .github/copilot-instructions.md, **/CLAUDE.md, **/GEMINI.md, **/.cursor/rules/*, **/.windsurfrules, **/.clinerules/*, **/.rules/*, **/AGENT.md) are included by default."
 								}
 							},
 							"additionalProperties": false,
