@@ -32,11 +32,11 @@ For an overview of how CodeRabbit uses these tools when generating code reviews,
 | Lua                         | [Luacheck][Luacheck]                                       | Code Quality                                        |
 | Makefile                    | [Checkmake][Checkmake]                                     | Code Quality                                        |
 | Markdown                    | [markdownlint][markdownlint], [LanguageTool][LanguageTool] | Code Quality, Grammar Checking                      |
-| PHP                         | [PHPStan][PHPStan]                                         | Code Quality                                        |
+| PHP                         | [PHPStan][PHPStan], [PHPMD][PHPMD], [PHPCS][PHPCS]         | Code Quality                                        |
 | Plaintext                   | [LanguageTool][LanguageTool]                               | Grammar and Spell Checking                          |
 | Java                        | [PMD][PMD]                                                 | Code Quality                                        |
 | Protobuf                    | [Buf][Buf]                                                 | Code Quality                                        |
-| Python                      | [Ruff][Ruff], [Pylint][Pylint]                             | Code Quality                                        |
+| Python                      | [Ruff][Ruff], [Pylint][Pylint], [Flake8][Flake8]           | Code Quality                                        |
 | Regal                       | [Regal][Regal]                                             | Code Quality                                        |
 | Ruby                        | [RuboCop][RuboCop], [Brakeman][Brakeman]                   | Code Quality, Code Security                         |
 | Rust                        | [Clippy][Clippy]                                           | Code Quality                                        |
@@ -84,3 +84,6 @@ For an overview of how CodeRabbit uses these tools when generating code reviews,
 [DotenvLinter]: /tools/dotenv.md
 [HTMLHint]: /tools/htmlhint.md
 [Checkmake]: /tools/checkmake.md
+[PHPMD]: /tools/phpmd.md
+[PHPCS]: /tools/phpcs.md
+[Flake8]: /tools/flake8.md
